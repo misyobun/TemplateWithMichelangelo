@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/thumbnail" />
+         <LinearLayout
+             android:id="@+id/mright_layout"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:orientation="vertical">
+
+             <!-- 名前 -->
+             <LinearLayout
+                 android:id="@+id/chara_name_layout"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="名前"
+                     android:id="@+id/textView" />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text=""
+                     android:id="@+id/cNameValue" />
+             </LinearLayout>
+
+             <!-- 出現エリア -->
+             <LinearLayout
+                 android:id="@+id/areaRow"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="出現" />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text=""
+                     android:id="@+id/cAreaValue" />
+             </LinearLayout>
+
+
+             <!-- 性別 -->
+             <LinearLayout
+                 android:id="@+id/sexArea"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="性別" />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="left"
+                     android:layout_weight="1"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text=""
+                     android:id="@+id/cSexValue" />
+             </LinearLayout>
+
+
+             <!-- 所属 -->
+             <LinearLayout
+                 android:id="@+id/attrArea"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="所属" />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text=""
+                     android:id="@+id/cAttrValue" />
+             </LinearLayout>
+
+
+             <!-- 職種 -->
+             <LinearLayout
+                 android:id="@+id/jobArea"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 >
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="職種" />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="#000000"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:text=""
+                     android:id="@+id/cJobValue" />
+             </LinearLayout>
+
+
+         </LinearLayout>
+    </LinearLayout>
+
+    <!-- 技一覧 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
